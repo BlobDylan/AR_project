@@ -1,13 +1,14 @@
 # Image files
 *.png
 *.jpg
+*.PNG
 
 # Video files
-output.avi
-output1.avi
-output2.avi
-video.mp4
-video_long.mp4
+*.avi
+*.mp4
+
+# object files
+*.obj
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

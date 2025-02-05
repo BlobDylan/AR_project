@@ -1,3 +1,13 @@
+# camera_matrix = np.array(
+#     [
+#         [3.23807962e03, 0.00000000e00, 2.36625441e03],
+#         [0.00000000e00, 3.27509469e03, 9.54133944e02],
+#         [0.00000000e00, 0.00000000e00, 1.00000000e00],
+#     ]
+# )
+# distortion_coefficients = np.array(
+#     [3.89846165e-01, -3.27481974e00, -2.41473373e-02, -2.53291228e-03, 1.10716359e01]
+# )
 # %%
 import cv2
 import numpy as np
@@ -5,8 +15,8 @@ import matplotlib.pyplot as plt
 from glob import glob
 
 # %%
-square_size = 2.495  # cm
-img_mask = "calibration_images/*.jpg"
+square_size = 2.4  # cm
+img_mask = "calibration_images/*.PNG"
 pattern_size = (9, 6)  # corners
 figsize = (20, 20)
 
